@@ -1,0 +1,323 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  color: #000;
+  font-weight: 400;
+  font-size: 1.8rem;
+
+  font-family: 'Lora', serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 2rem 5rem; */
+  align-items: center;
+  padding: 5rem 0;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.main-nav-lists {
+  display: flex;
+  list-style: none;
+  gap: 2.8rem;
+  align-items: center;
+  justify-items: center;
+
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.main-nav-list {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+
+  font-size: 1.7rem;
+  transition: all 0.1s linear;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.about-flex {
+  display: flex;
+  gap: 10rem;
+  margin-top: 9rem;
+  transition: transform 1s, opacity 1s;
+}
+
+.about-flex img {
+  width: 100%;
+  height: 45rem;
+  border-radius: 9px;
+}
+
+.about-text p {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  word-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.hello-world {
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.skills {
+  padding: 6rem 0 3rem 0;
+  border-bottom: 1px solid #adb5bd;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.language p {
+  color: #000;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.language-lists {
+  list-style: none;
+}
+
+.language-list {
+  margin-bottom: 1rem;
+}
+
+.education-details {
+  display: grid;
+  gap: 30rem;
+  margin-bottom: 5rem;
+  grid-template-columns: 30fr 70fr;
+}
+
+.school-name {
+  display: grid;
+  gap: 30rem;
+
+  grid-template-columns: 30fr 70fr;
+}
+
+.university-name {
+  color: #000;
+}
+
+.course {
+  color: #000;
+}
+
+.main-section-heading {
+  font-size: 7rem;
+  font-weight: 700;
+  color: #000;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  padding: 1rem 2rem;
+  border-radius: 9px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 5rem;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #20b2aa;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #fff;
+  color: #000;
+  box-shadow: inset 0 0 0 3px #000;
+}
+
+.logo {
+  text-decoration: none;
+
+  color: #000;
+}
+
+.form-grid {
+  display: grid;
+}
+
+input {
+  display: block;
+  width: 48rem;
+  height: 4rem;
+  margin-top: 0.5rem;
+}
+
+.message-input {
+  height: 20rem;
+}
+
+select {
+  width: 48rem;
+  display: block;
+  height: 4rem;
+  margin-top: 0.5rem;
+}
+
+.grid-content {
+  margin-bottom: 2rem;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.section-footer {
+  background-color: #0f0f0f;
+  transition: transform 1s, opacity 1s;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  align-self: flex-end;
+  margin-bottom: 5rem;
+  color: #868e96;
+
+  justify-self: end;
+}
+
+.get-in-touch-text {
+  font-size: 2rem;
+
+  color: #868e96;
+  font-weight: 700;
+  border-bottom: 1px solid #343a40;
+  padding: 3rem 0 3rem 0;
+}
+
+.get-in-touch p {
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 0.2rem;
+}
+
+.email-copyright {
+  display: flex;
+}
+
+.btn-footer,
+.btn-footer:link,
+.btn-footer:visited {
+  display: inline-block;
+
+  padding: 1rem 2rem;
+  border-radius: 9px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 5rem;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #20b2aa;
+}
+
+.btn-footer:hover,
+.btn-footer:active {
+  background-color: #0f0f0f;
+  box-shadow: inset 0 0 0 3px #000;
+}
+
+/* ///// */
+.footer {
+  display: grid;
+  padding: 3rem 0 0 0;
+  grid-template-columns: 55fr 45fr;
+  column-gap: 10rem;
+  color: #ced4da;
+}
+
+.socials {
+  display: flex;
+  gap: 3rem;
+
+  margin-bottom: 5rem;
+}
+
+.social-links {
+  text-decoration: none;
+  color: #20b2aa;
+  font-weight: 900;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: #20b2aa;
+}
+
+.account-para {
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 20rem;
+
+  border: 1px solid #000;
+}
+
+.calc-input {
+  width: 20rem;
+}
+
+.calculator {
+  padding: 10px;
+  border-radius: 1em;
+  height: 380px;
+  width: 400px;
+  margin: auto;
+  background-color: #191b28;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.display-box {
+  background-color: #dcdbe1;
+  border: solid black 0.5px;
+  color: black;
+  border-radius: 5px;
+  width: 100%;
+  height: 65%;
+}
+.button {
+  background-color: #64278f;
+  color: white;
+  border: solid black 0.5px;
+  width: 100%;
+  border-radius: 5px;
+  height: 70%;
+  outline: none;
+}
+.button:active {
+  background: #e5e5e5;
+}
+
+.special-button {
+  color: white;
+  border: solid black 0.5px;
+  width: 100%;
+  border-radius: 5px;
+  height: 70%;
+  outline: none;
+  background-color: #20b2aa;
+}
